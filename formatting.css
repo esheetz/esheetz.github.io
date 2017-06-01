@@ -5,6 +5,16 @@ body {
 }
 
 h1 {
-  font-face: san-serif;
+  font-face: Helvetica;
+  font-size: 20pt;
+}
+
+h2 {
+  font-face: Helvetica;
   font-size: 16pt;
+}
+
+a {
+  font-face: Helvetica;
+  color: black;
 }
