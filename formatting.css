@@ -9,7 +9,10 @@ body {
   background-color: white;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  top: 50;
+}
+
+.page_content {
+  margin-top: 200px;
 }
 
 h1 {
@@ -22,7 +25,7 @@ h2 {
   font-size: 16pt;
 }
 
-ul {
+ul.navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,23 +36,27 @@ ul {
   top: 0;
 }
 
-li {
+li.navigation {
   display: inline-block;
 }
 
-li a {
+li a.navigation {
   display: block;
   padding: 10px;
   color: white;
   text-decoration: none;
 }
 
-li a:hover {
+li a.navigation:hover {
   background-color: #1B00FF;
 }
 
 a {
   font-face: Helvetica;
-  color: black;
+  color: gray
   text-decoration: none;
+}
+
+p.contact_info {
+  font-size: 14pt;
 }
