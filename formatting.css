@@ -11,6 +11,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navigation {
+  margin-top: 0px;
+}
+
 .page_content {
   margin-top: 200px;
 }
@@ -51,9 +55,13 @@ li a.navigation:hover {
   background-color: #1B00FF;
 }
 
-a {
-  font-face: Helvetica;
-  color: gray
+a:link {
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
   text-decoration: none;
 }
 
