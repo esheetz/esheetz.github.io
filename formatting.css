@@ -1,14 +1,13 @@
-header {
-  position: fixed;
+body {
   background-color: white;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+header {
+  position: fixed;
   background-color: white;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navigation {
@@ -16,7 +15,7 @@ body {
 }
 
 .page_content {
-  margin-top: 200px;
+  margin-top: 0px;
 }
 
 h1 {
