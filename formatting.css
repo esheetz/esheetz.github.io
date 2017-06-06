@@ -15,7 +15,9 @@ header {
 }
 
 .page_content {
-  margin-top: 0px;
+  position: absolute;
+  margin-top: 100px;
+  width: 80%;
 }
 
 h1 {
