@@ -12,66 +12,149 @@
 <body>
 
   <header>
-
-    <nav>
-      <h1><a href="http://esheetz.github.io/">Emily Sheetz</a></h1>
-      <ul>
-        <li><a href="coursework.html">Coursework</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="resume.html">Resume</a></li>
-      </ul>
-    </nav>
-
+    <div class="navigation">
+      <nav>
+        <h1><a href="http://esheetz.github.io/">Emily Sheetz</a></h1>
+        <ul>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <ol>
-      <li><a href="#MC">Monmouth College</a></li>
-      <ul>
-        <li>SO<em>f</em>IA 2014</li>
-        <li>Particle Image Velocimetry</li>
-        <li>SO<em>f</em>IA 2015</li>
-        <li>Honors Capstone</li>
-      </ul>
-      <li><a href="#UofA">University of Arizona</a></li>
-      <li><a href="#AU">Auburn University</a></li>
-    </ol>
-  </nav>
-
-
-  <p>
-    This is where I would put information about my research.  <em>This is a
-      test.</em>
-  </p>
-
-  <h2 id="MC">Monmouth College</h2>
-
-  <div class="research">
-    <h3 id="SOfIA2014">SO<em>f</em>IA 2014</h3>
-    <p>
-      During the summer of 2014, I participated in the Summer Opportunities for
-      Intellectual Activity (SO<em>f</em>IA) project, a three week research
-      experience through Monmouth College focused on introducing freshmen to
-      research.  I worked on the High Speed Imagery and Mathematical Modelling
-      project, in which we
-      <a href="SOfIA2014_bubble.pdf" target="_tab">modelled the popping of
-        a soap bubble</a>.
-    </p>
+  <div class="page_navigation">
+    <nav>
+      <ol>
+        <li><a href="#MC">Monmouth College</a></li>
+        <ul>
+          <li><a href="#SOfIA2014">SO<em>f</em>IA 2014</a></li>
+          <li><a href="#PIV">Independent Research</a></li>
+          <li><a href="#SOfIA2015">SO<em>f</em>IA 2015</a></li>
+          <li><a href="#Honors">Honors Capstone</a></li>
+        </ul>
+        <li><a href="#UofA">University of Arizona</a></li>
+        <li><a href="#AU">Auburn University</a></li>
+      </ol>
+    </nav>
   </div>
 
-  <h2 id="UofA">University of Arizona</h2>
-
-  <img src="nate_emily_tyler.jpg">
-
-  <h2 id="AU">Auburn University</h2>
-
-  <footer>
-
+  <div class="page_content">
     <p>
-      Emily Sheetz<br>
-      esheetz@monmouthcollege.edu
+      I have participated in a number of research projects throughout my
+      undergraduate career, including two Research Experiences for
+      Undergraduates (REUs).  For more details on my responsibilities during
+      these research projects, see my <a href="resume.html">resume</a>.  My
+      primary research interests include autonomous systems and artificial
+      intelligence.
     </p>
 
+    <div class="MC">
+      <h2 id="MC">Monmouth College</h2>
+
+      <div class="research">
+        <h3 id="SOfIA2014">SO<em>f</em>IA 2014</h3>
+        <p>
+          During the summer of 2014, I participated in the Summer Opportunities for
+          Intellectual Activity (SO<em>f</em>IA) project, a three week research
+          experience through Monmouth College focused on introducing freshmen to
+          research.  I worked on the High Speed Imagery and Mathematical Modelling
+          project, in which we
+          <a href="SOfIA2014_bubble.pdf" target="_tab">modelled the popping of
+            a soap bubble</a>.
+        </p>
+      </div> <!-- end div research(SOfIA2014) -->
+
+      <div class="research">
+        <h3 id="PIV">Independent Research</h3>
+        <h4>Particle Image Velocimetry</h4>
+        <p>
+          During the 2014 - 2015 school year, I conducted independent research in
+          the high speed imagery lab under the supervision of Dr. Michael
+          Sostarecz.  I used
+          <a href="PIV.pdf" target="_tab">particle image velocimetery (PIV)</a>
+           to explore water flow around an airfoil at various angles of attack.
+        </p>
+      </div> <!-- end div research(PIV) -->
+
+      <div class="research">
+        <h3 id="SOfIA2015">SO<em>f</em>IA 2015</h3>
+        <p>
+          During the summer of 2015, I participated in the SO<em>f</em>IA program
+          as a returning student mentor for the High Speed Imagery and
+          Mathematical Modelling project.  The group explored
+          <a href="SOfIA2015_bodykinetics.pdf" target="_tab">applications of TEMA
+            tracking software</a>
+           and researched
+          <a href="SOfIA2015_plinko.pdf" target="_tab">fundamentals of chaos
+            theory</a>.
+        </p>
+      </div> <!-- end div research(SOfIA2015) -->
+
+      <div class="research">
+        <h3 id="Honors">Honors Capstone</h3>
+        <h4>Chaos Theory and Free Will</h4>
+        <p>
+          The culmination of the Monmouth College Honors Program is an
+          interdisciplinary capstone project.  With the help of supervisors Dr.
+          Michael Sostarecz and Dr. Hannah Schell, I researched and integrated
+          topics in the mathematics of chaos theory and philosophical questions
+          of free will.  My capstone project involved an
+          <a href="HonorsCapstone_presentation.pdf" target="_tab">oral
+            presentation</a>
+           and a
+          <a href="HonorsCapstone_paper.pdf" target="_tab">final paper</a>.
+        </p>
+      </div> <!-- end div research(Honors) -->
+    </div> <!-- end div MC -->
+
+    <div class="UofA">
+      <h2 id="UofA">University of Arizona</h2>
+      <h3>CAT Vehicle REU</h3>
+      <p>
+        I spent the summer of 2016 at the University of Arizona in Tucson
+        working with the Cognitive Autonomous Test (CAT) Vehicle REU.  My
+        research partner and I used system identification methods to create a
+        mathematical model to represent the internal dynamics of the CAT
+        Vehicle's controller.  By the end of the ten week program, we had found
+        a model for the velocity controller in the vehicle and demonstrated our
+        model on a Proportional Integral Derivative (PID) controller.  Our
+        research is explained in our
+        <a href="CATVehicle_paper.pdf" target="_tab">paper draft</a>.
+        As part of the program, my fellow REU participants and I put together
+        <a href="https://www.youtube.com/watch?v=Jgv6eqdxbew&list=PLcXdwRQiNMIo2rxe9W9NUn9WRYwAn8YQ2&index=1"
+        target="_tab">videos</a> to describe our experiences.  My
+        <a href="https://www.youtube.com/watch?v=isnpaCCE9ZA&feature=youtu.be"
+        target="_tab">video</a> is embedded below.
+      </p>
+
+      <video width="420" height="270" controls>
+        <source src="CATVehicle_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div> <!-- end div UofA -->
+
+    <div class="AU">
+      <h2 id="AU">Auburn University</h2>
+      <h3>REU on Smart UAVs</h3>
+      <p>
+      </p>
+
+      <h3>Related Work</h3>
+      <ul>
+      </ul>
+
+    </div> <!-- end div AU -->
+  </div> <!-- end div page_content -->
+
+  <footer>
+    <div class="contact_info">
+      <p>
+        Emily Sheetz<br>
+        esheetz@monmouthcollege.edu
+      </p>
+    </div>
   </footer>
 
 </body>

@@ -19,16 +19,22 @@ header {
 }
 
 h1 {
-  font-face: Helvetica;
   font-size: 20pt;
 }
 
 h2 {
-  font-face: Helvetica;
+  font-size: 18pt;
+}
+
+h3 {
   font-size: 16pt;
 }
 
-ul.navigation {
+h4 {
+  font-size: 14pt;
+}
+
+.navigation ul { /* changed from ul.navigation */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,18 +45,18 @@ ul.navigation {
   top: 0;
 }
 
-li.navigation {
+.navigation li { /* changed from li.navigation */
   display: inline-block;
 }
 
-li a.navigation {
+.navigation li a { /* changed from li a.navigation */
   display: block;
   padding: 10px;
   color: white;
   text-decoration: none;
 }
 
-li a.navigation:hover {
+.navigation li a:hover { /* changed from li a.navigation:hover */
   background-color: #1B00FF;
 }
 
@@ -64,6 +70,6 @@ a:visited {
   text-decoration: none;
 }
 
-p.contact_info {
+.contact_info { /* changed from p.contatct_info */
   font-size: 14pt;
 }
