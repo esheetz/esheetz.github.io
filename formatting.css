@@ -16,8 +16,11 @@ header {
 
 .page_content {
   position: absolute;
-  margin-top: 100px;
-  width: 80%;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
+  /* width: 80%; */
 }
 
 h1 {
@@ -40,7 +43,16 @@ p {
   font-size: 11pt;
 }
 
-.navigation ul { /* changed from ul.navigation */
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+.navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -51,18 +63,18 @@ p {
   top: 0;
 }
 
-.navigation li { /* changed from li.navigation */
+.navigation li {
   display: inline-block;
 }
 
-.navigation li a { /* changed from li a.navigation */
+.navigation li a {
   display: block;
   padding: 10px;
   color: white;
   text-decoration: none;
 }
 
-.navigation li a:hover { /* changed from li a.navigation:hover */
+.navigation li a:hover {
   background-color: #1B00FF;
 }
 
@@ -76,6 +88,6 @@ a:visited {
   text-decoration: none;
 }
 
-.contact_info { /* changed from p.contatct_info */
+.contact_info {
   font-size: 14pt;
 }
