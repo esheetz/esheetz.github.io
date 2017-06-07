@@ -29,9 +29,9 @@
       <ol>
         <li><a href="#MC">Monmouth College</a></li>
         <ul>
-          <li><a href="#SOfIA2014">SO<em>f</em>IA 2014</a></li>
+          <li><a href="#SOfIA2014">SO<i>f</i>IA 2014</a></li>
           <li><a href="#PIV">Independent Research</a></li>
-          <li><a href="#SOfIA2015">SO<em>f</em>IA 2015</a></li>
+          <li><a href="#SOfIA2015">SO<i>f</i>IA 2015</a></li>
           <li><a href="#Honors">Honors Capstone</a></li>
         </ul>
         <li><a href="#UofA">University of Arizona</a></li>
@@ -54,10 +54,10 @@
       <h2 id="MC">Monmouth College</h2>
 
       <div class="research">
-        <h3 id="SOfIA2014">SO<em>f</em>IA 2014</h3>
+        <h3 id="SOfIA2014">SO<i>f</i>IA 2014</h3>
         <p>
           During the summer of 2014, I participated in the Summer Opportunities for
-          Intellectual Activity (SO<em>f</em>IA) project, a three week research
+          Intellectual Activity (SO<i>f</i>IA) project, a three week research
           experience through Monmouth College focused on introducing freshmen to
           research.  I worked on the High Speed Imagery and Mathematical Modelling
           project, in which we
@@ -79,9 +79,9 @@
       </div> <!-- end div research(PIV) -->
 
       <div class="research">
-        <h3 id="SOfIA2015">SO<em>f</em>IA 2015</h3>
+        <h3 id="SOfIA2015">SO<i>f</i>IA 2015</h3>
         <p>
-          During the summer of 2015, I participated in the SO<em>f</em>IA program
+          During the summer of 2015, I participated in the SO<i>f</i>IA program
           as a returning student mentor for the High Speed Imagery and
           Mathematical Modelling project.  The group explored
           <a href="SOfIA2015_bodykinetics.pdf" target="_tab">applications of TEMA
@@ -113,7 +113,7 @@
       <h2 id="UofA">University of Arizona</h2>
       <h3>CAT Vehicle REU</h3>
       <p>
-        I spent the summer of 2016 at the University of Arizona in Tucson
+        I spent the summer of 2016 at the University of Arizona in Tucson, Arizona
         working with the Cognitive Autonomous Test (CAT) Vehicle REU.  My
         research partner and I used system identification methods to create a
         mathematical model to represent the internal dynamics of the CAT
@@ -124,14 +124,15 @@
         <a href="CATVehicle_paper.pdf" target="_tab">paper draft</a>.
         As part of the program, my fellow REU participants and I put together
         <a href="https://www.youtube.com/watch?v=Jgv6eqdxbew&list=PLcXdwRQiNMIo2rxe9W9NUn9WRYwAn8YQ2&index=1"
-        target="_tab">videos</a> to describe our experiences.  My
+        target="_tab">videos</a> to describe our experiences.
         <a href="https://www.youtube.com/watch?v=isnpaCCE9ZA&feature=youtu.be"
-        target="_tab">video</a> is embedded below.
+        target="_tab">My video</a> is embedded below.
       </p>
 
       <video width="420" height="270" controls>
         <source src="CATVehicle_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        Your browser does not support this embedded video.  Please view the
+        video using the link.
       </video>
     </div> <!-- end div UofA -->
 
@@ -139,10 +140,42 @@
       <h2 id="AU">Auburn University</h2>
       <h3>REU on Smart UAVs</h3>
       <p>
+        I spent the summer of 2017 at Auburn University in Auburn, Alabama
+        working at the REU for Smart Unmanned Aerial Vehicles (UAVs).  My
+        research partner and I took a unique approach to the problem of visual
+        homing by combining techniques from previous works.  The route of the
+        UAV's exploratory journey away from home was represented by snapshots,
+        turning the problem of long-range visual homing into visiting a series
+        of local waypoints.  We trained a convolutional neural network to
+        estimate the homography between reference snapshots and camera images
+        of the return journey.  Using the homography, we could compute the
+        direction vector for the UAV to navigate home.  Our research is
+        explained in our
+        <a href="#" target="_tab">paper draft</a>
+        and our
+        <a href="" target="_tab">final presentation</a>.
       </p>
 
       <h3>Related Work</h3>
+      <p>
+        Papers that influence our research are listed below.
+      </p>
       <ul>
+        <li><a href="/SmartUAVs_related/gpsjamming">Problems with GPS</a>
+          <p>
+            This paper explains some of the flaws of navigation relying on
+            GPS signals.  The problems of GPS motivate research in visual homing.
+          </p>
+        </li>
+        <li><a href="/SmartUAVs_related/computervision">Computer Vision Tools</a></li>
+        <p>
+          This paper is the result of the work done by participants of the 2016
+          REU on Smart UAVs, and explains how computer vision tools, such as
+          <i>OpenCV</i>, can be used with simulation tools, such as <i>OpenGL</i>.
+          While we did not use <i>OpenGL</i> for our simulations, this paper
+          helped us fully consider the effectiveness of the tools available
+          to us.
+        </p>
       </ul>
 
     </div> <!-- end div AU -->
