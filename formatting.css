@@ -10,11 +10,13 @@ header {
   position: fixed;
   background-color: white;
   color: black;
+  /*z-index: 4;*/
 }
 
 footer {
   background-color: white;
   color: black;
+  /*z-index: 1;*/
 }
 
 
@@ -90,6 +92,7 @@ th, td {
   height: 50px;
   position: fixed;
   top: 0;
+  z-index: 4;
 }
 
 .navigation li {
@@ -111,6 +114,10 @@ th, td {
 
 /* div class page_navigation */
 
+.page_navigation {
+  z-index: 3;
+}
+
 /* div class page_content */
 
 .page_content {
@@ -119,14 +126,12 @@ th, td {
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 150px;
+  z-index: 2;
 }
 
 /* div class contact_info */
 
 .contact_info {
   font-size: 10pt;
-  margin-top: 150px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 150px;
+  z-index: 1;
 }
