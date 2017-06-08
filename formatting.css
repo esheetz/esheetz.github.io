@@ -44,6 +44,10 @@ p {
 }
 
 table {
+  width: 80%;
+}
+
+table, tr {
   border: 1px solid black;
   border-collapse: collapse;
 }
