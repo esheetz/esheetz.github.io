@@ -101,13 +101,12 @@ th, td {
 .navigation li {
   display: inline-block;
   float: left;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
 }
 
 .navigation li a {
   display: block;
-  padding: 10px;
+  padding: 30px 30px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -124,6 +123,7 @@ th, td {
 .pages {
   float: right;
   margin-top: 30px;
+  margin-right: 30px;
 }
 
 
@@ -133,6 +133,7 @@ th, td {
 .dropdown {
   position: relative;
   display: inline-block;
+  float: right;
 }
 
 .dropdown:hover {
@@ -141,6 +142,7 @@ th, td {
 
 .dropdown:hover .dropdown_content {
   display: block;
+  background-color: #7B241C;
 }
 
 
@@ -150,6 +152,7 @@ th, td {
 .dropdown_content {
   display: none;
   position: absolute;
+  right: 0;
   background-color: #922B21;
   min-width: 200px;
   padding: 10px 10px;
