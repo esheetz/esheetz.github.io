@@ -140,10 +140,10 @@ th, td {
   display: inline-block;
 }
 
-.button {
+/* .button {
   position: relative;
   display: inline-block;
-}
+} */
 
 .dropdown:hover .dropdown_content {
   display: block;
