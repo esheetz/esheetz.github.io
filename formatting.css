@@ -136,6 +136,11 @@ th, td {
   display: inline-block;
 }
 
+.button {
+  position: relative;
+  display: inline-block;
+}
+
 .dropdown:hover .dropdown_content {
   display: block;
   background-color: #154360;
