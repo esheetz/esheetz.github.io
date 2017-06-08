@@ -62,7 +62,7 @@ a:visited {
 /* tables */
 
 table {
-  width: 100%;
+  width: 80%;
 }
 
 table, tr {
@@ -81,6 +81,7 @@ th, td {
 
 .navigation {
   margin-top: 0px;
+  top: 0;
 }
 
 .navigation ul {
