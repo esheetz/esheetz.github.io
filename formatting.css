@@ -1,3 +1,5 @@
+/* body, header, footer */
+
 body {
   background-color: white;
   color: black;
@@ -10,18 +12,15 @@ header {
   color: black;
 }
 
-.navigation {
-  margin-top: 0px;
+footer {
+  position: fixed;
+  background-color: white;
+  color: black;
 }
 
-.page_content {
-  position: absolute;
-  margin-top: 150px;
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 150px;
-  /* width: 80%; */
-}
+
+
+/* headings and paragraphs */
 
 h1 {
   font-size: 20pt;
@@ -43,8 +42,26 @@ p {
   font-size: 11pt;
 }
 
+
+
+/* links */
+
+a:link {
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+
+
+/* tables */
+
 table {
-  width: 80%;
+  width: 100%;
 }
 
 table, tr {
@@ -52,8 +69,17 @@ table, tr {
   border-collapse: collapse;
 }
 
-th {
+th, td {
   text-align: left;
+  padding: 5px;
+}
+
+
+
+/* div class navigation */
+
+.navigation {
+  margin-top: 0px;
 }
 
 .navigation ul {
@@ -82,16 +108,26 @@ th {
   background-color: #1B00FF;
 }
 
-a:link {
-  color: gray;
-  text-decoration: none;
+
+
+/* div class page_navigation */
+
+/* div class page_content */
+
+.page_content {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
 }
 
-a:visited {
-  color: gray;
-  text-decoration: none;
-}
+/* div class contact_info */
 
 .contact_info {
-  font-size: 14pt;
+  font-size: 10pt;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 150px;
 }
