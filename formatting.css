@@ -101,12 +101,15 @@ th, td {
 .navigation li {
   display: inline-block;
   float: left;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .navigation li a {
   display: block;
   padding: 10px;
   color: white;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -120,7 +123,7 @@ th, td {
 
 .pages {
   float: right;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 
@@ -130,6 +133,10 @@ th, td {
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.dropdown:hover {
+  background-color: #154360;
 }
 
 .dropdown:hover .dropdown_content {
