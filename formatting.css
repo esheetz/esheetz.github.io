@@ -10,13 +10,13 @@ header {
   position: fixed;
   background-color: white;
   color: black;
-  /*z-index: 4;*/
+  z-index: 4;
 }
 
 footer {
   background-color: white;
   color: black;
-  /*z-index: 1;*/
+  z-index: 1;
 }
 
 
@@ -89,7 +89,7 @@ th, td {
   padding: 0;
   background-color: #0064FF;
   width: 100%;
-  height: 50px;
+  height: 100px;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -108,6 +108,14 @@ th, td {
 
 .navigation li a:hover {
   background-color: #1B00FF;
+}
+
+
+
+/* div class pages */
+
+.pages {
+  float: right;
 }
 
 
@@ -132,6 +140,16 @@ th, td {
 /* div class contact_info */
 
 .contact_info {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
   font-size: 10pt;
   z-index: 1;
+}
+
+/* div class img_emily */
+
+.img_emily {
+  float: right;
 }
