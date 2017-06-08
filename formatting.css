@@ -90,7 +90,7 @@ th, td {
   padding: 0;
   background-color: #0064FF;
   width: 100%;
-  height: 100px;
+  height: 150px;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -98,6 +98,7 @@ th, td {
 
 .navigation li {
   display: inline-block;
+  float: left;
 }
 
 .navigation li a {
@@ -138,6 +139,8 @@ th, td {
   z-index: 2;
 }
 
+
+
 /* div class contact_info */
 
 .contact_info {
@@ -148,6 +151,8 @@ th, td {
   font-size: 10pt;
   z-index: 1;
 }
+
+
 
 /* div class img_emily */
 
