@@ -64,7 +64,9 @@ a:visited {
 
 table {
   table-layout: fixed;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 table, tr {
@@ -76,6 +78,11 @@ th, td {
   text-align: left;
   padding: 5px;
   font-size: 11pt;
+}
+
+th {
+  background-color: purple;
+  color: white;
 }
 
 
