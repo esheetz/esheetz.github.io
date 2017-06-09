@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>AU Research</title>
+  <meta http-equiv="Content-type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="formatting.css">
+  <!--<link rel="canonical" href="http://esheetz.github.io/research/">-->
+</head>
+
+<body>
+
+  <header>
+    <div class="navigation">
+      <nav>
+        <ul>
+          <li><h1><a href="http://esheetz.github.io/">Emily Sheetz</a></h1></li>
+          <div class="pages">
+            <div class="dropdown">
+              <li><a href="coursework.html">Coursework</a>
+                <div class="dropdown_content">
+                  <a href="coursework_math.html">Mathematics Major</a>
+                  <a href="coursework_cs.html">Computer Science Major</a>
+                  <a href="coursework_span.html">Spanish Minor</a>
+                  <a href="coursework_honors.html">Honors Program</a>
+                </div> <!-- end div dropdown_content -->
+              </li>
+            </div> <!-- end div dropdown -->
+            <div class="dropdown">
+              <li><a href="research.html">Research</a>
+                <div class="dropdown_content">
+                  <a href="research_MC.html">Monmouth College</a>
+                  <a href="research_UofA.html">University of Arizona</a>
+                  <a href="research_AU.html">Auburn University</a>
+                </div> <!-- end div dropdown_content -->
+              </li>
+            </div> <!-- end div dropdown -->
+            <div class="button">
+              <li><a href="resume.html">Resume</a></li>
+            </div> <!-- end div button -->
+          </div> <!-- end div pages -->
+        </ul>
+      </nav>
+    </div> <!-- end div navigation -->
+  </header>
+
+  <div class="page_content">
+
+    <h1>Research</h1>
+
+    <div class="research_AU">
+      <h2>Auburn University</h2>
+      <div class="research">
+        <h3>REU on Smart UAVs</h3>
+        <p>
+          I spent the summer of 2017 at Auburn University in Auburn, Alabama
+          working at the REU for Smart Unmanned Aerial Vehicles (UAVs).  My
+          research partner and I took a unique approach to the problem of visual
+          homing by combining techniques from previous works.  The route of the
+          UAV's exploratory journey away from home was represented by snapshots,
+          turning the problem of long-range visual homing into visiting a series
+          of local waypoints.  We trained a convolutional neural network to
+          estimate the homography between reference snapshots and camera images
+          of the return journey.  Using the homography, we could compute the
+          direction vector for the UAV to navigate home.  Our research is
+          explained in our
+          <a href="#" target="_tab">paper draft</a>
+          and our
+          <a href="#" target="_tab">final presentation</a>.
+        </p>
+
+        <h3>Related Work</h3>
+        <p>
+          Papers that influence our research are listed below.
+        </p>
+        <ul>
+          <li><a href="/SmartUAVs_related/gpsjamming.pdf" target="_tab">
+            Problems with GPS</a></li>
+          <p>
+            This paper explains some of the flaws of navigation relying on
+            GPS signals.  The problems of GPS motivate research in visual homing.
+          </p>
+          <li><a href="/SmartUAVs_related/computervision.pdf" target="_tab">
+            Computer Vision Tools</a></li>
+          <p>
+            This paper is the result of the work done by participants of the 2016
+            REU on Smart UAVs, and explains how computer vision tools, such as
+            <i>OpenCV</i>, can be used with simulation tools, such as <i>OpenGL</i>.
+            While we did not use <i>OpenGL</i> for our simulations, this paper
+            helped us fully consider the effectiveness of the tools available
+            to us.
+          </p>
+        </ul>
+      </div> <!-- end div research -->
+    </div> <!-- end div research_AU -->
+  </div> <!-- end div page_content -->
+
+  <footer>
+    <div class="contact_info">
+      <p>
+        Emily Sheetz<br>
+        esheetz@monmouthcollege.edu
+      </p>
+    </div> <!-- end div contact_info -->
+  </footer>
+
+</body>
+
+</html>
