@@ -63,6 +63,7 @@ a:visited {
 /* tables */
 
 table {
+  table-layout: fixed;
   width: 100%;
 }
 
@@ -196,14 +197,6 @@ th, td {
   margin-right: 150px;
   margin-bottom: 150px;
   z-index: 2;
-}
-
-
-
-/* div class course */
-
-.course table {
-  width: 100%
 }
 
 
