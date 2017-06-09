@@ -183,7 +183,8 @@ th, td {
   padding: 0;
   background-color: #6C3483;
   width: 100%;
-  height: 100px;
+  height: 40px;
+  top: 0;
   position: fixed;
   z-index: 3;
 }
