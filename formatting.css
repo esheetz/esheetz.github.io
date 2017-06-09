@@ -191,11 +191,19 @@ th, td {
 
 .page_content {
   position: absolute;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-left: 150px;
   margin-right: 150px;
   margin-bottom: 150px;
   z-index: 2;
+}
+
+
+
+/* div class course */
+
+.course table {
+  width: 100%
 }
 
 
@@ -205,8 +213,7 @@ th, td {
 .contact_info {
   width: 100%;
   height: 30px;
-  position: fixed;
-  bottom: 0;
+  position: static;
   font-size: 10pt;
   z-index: 1;
 }
@@ -217,7 +224,7 @@ th, td {
 
 .img_emily {
   float: right;
-  padding: 30px 30px;
+  padding: 10px 50px;
 }
 
 
@@ -226,5 +233,5 @@ th, td {
 
 .img_logo {
   float: right;
-  padding: 30px 30px;
+  padding: 5px 30px;
 }
