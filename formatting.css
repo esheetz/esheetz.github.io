@@ -80,6 +80,26 @@ th, td {
 
 
 
+/* div classes .table_* */
+
+.table_code {
+  width: 15%;
+}
+
+.table_course {
+  width: 40%;
+}
+
+.table_sem {
+  width: 30%;
+}
+
+.table_grade {
+  width: 15%;
+}
+
+
+
 /* div class navigation */
 
 .navigation {
