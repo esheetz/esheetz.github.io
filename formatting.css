@@ -176,8 +176,8 @@ th, td {
 /* div class page_navigation */
 
 .page_navigation {
-  margin-top: 120px;
-  margin-left: 150px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .page_navigation ul {
@@ -217,5 +217,14 @@ th, td {
 
 .img_emily {
   float: right;
-  padding: 10px 10px;
+  padding: 30px 30px;
+}
+
+
+
+/* div class img_logo */
+
+.img_logo {
+  float: right;
+  padding: 30px 30px;
 }
