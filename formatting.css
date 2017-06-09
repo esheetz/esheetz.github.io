@@ -103,7 +103,7 @@ th, td {
 
 th {
   background-color: #821F8D;
-  color: black;
+  color: white;
 }
 
 
@@ -216,14 +216,18 @@ th {
 /* div class page_navigation */
 
 .page_navigation {
-  margin-left: -40px;
   margin-bottom: 40px;
+  z-index: 3;
 }
 
 .page_navigation ul {
   list-style-type: none;
   font-size: 11pt;
-  z-index: 3;
+}
+
+.page_navigation ol {
+  list-style-type: none;
+  font-size: 11pt;
 }
 
 
@@ -235,7 +239,7 @@ th {
   margin-top: 130px;
   margin-left: 15%;
   margin-right: 15%;
-  margin-bottom: 0px;
+  margin-bottom: 130px;
   z-index: -1;
 }
 
@@ -245,7 +249,22 @@ th {
 
 
 
+/* div class course */
+
+.course ol {
+  list-style-type: none;
+}
+
+.course p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-botton: 15px;
+}
+
+
+
 /* div class research */
+
 .research h3 {
   margin-bottom: 5px;
 }
@@ -253,6 +272,10 @@ th {
 .research h4 {
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+.research li {
+  font-size: 11pt;
 }
 
 
