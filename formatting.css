@@ -1,3 +1,4 @@
+/* GENERAL FORMATTING */
 /* body, header, footer */
 
 body {
@@ -81,53 +82,7 @@ a:hover {
 
 
 
-/* tables */
-
-table {
-  table-layout: fixed;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-table, tr {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-th, td {
-  text-align: left;
-  padding: 5px;
-  font-size: 11pt;
-}
-
-th {
-  background-color: #821F8D;
-  color: white;
-}
-
-
-
-/* div classes .table_* */
-
-.table_code {
-  width: 15%;
-}
-
-.table_course {
-  width: 40%;
-}
-
-.table_sem {
-  width: 30%;
-}
-
-.table_grade {
-  width: 15%;
-}
-
-
-
+/* SITE NAVIGATION */
 /* div class navigation */
 
 .navigation {
@@ -213,6 +168,7 @@ th {
 
 
 
+/* PAGE NAVIGATION */
 /* div class page_navigation */
 
 .page_navigation {
@@ -232,6 +188,7 @@ th {
 
 
 
+/* PAGE CONTENT */
 /* div class page_content */
 
 .page_content {
@@ -249,6 +206,7 @@ th {
 
 
 
+/* COURSEWORK */
 /* div class course */
 
 .course ol {
@@ -258,11 +216,59 @@ th {
 .course p {
   padding-left: 20px;
   padding-right: 20px;
-  padding-botton: 15px;
+  padding-bottom: 15px;
 }
 
 
 
+/* tables */
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+table, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+  font-size: 11pt;
+}
+
+th {
+  background-color: #821F8D;
+  color: white;
+}
+
+
+
+/* div classes .table_* */
+
+.table_code {
+  width: 15%;
+}
+
+.table_course {
+  width: 40%;
+}
+
+.table_sem {
+  width: 30%;
+}
+
+.table_grade {
+  width: 15%;
+}
+
+
+
+/* RESEARCH */
 /* div class research */
 
 .research h3 {
@@ -280,6 +286,7 @@ th {
 
 
 
+/* CONTACT INFO */
 /* div class contact_info */
 
 .contact_info {
@@ -289,6 +296,7 @@ th {
 
 
 
+/* IMAGES */
 /* div class img_emily */
 
 .img_emily {
