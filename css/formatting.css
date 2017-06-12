@@ -207,6 +207,10 @@ a:hover {
   list-style-type: none;
 }
 
+.course li {
+  margin-bottom: 10px;
+}
+
 .course p {
   padding-left: 20px;
   padding-right: 20px;
