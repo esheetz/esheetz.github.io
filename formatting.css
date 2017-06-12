@@ -13,7 +13,7 @@ header {
   margin: 0;
   padding: 0;
   background-color: #1F618D;
-  border-bottom: 10px solid #821F8D;
+  border-bottom: 10px solid #8D1F16; /*#821F8D;*/
   color: white;
   width: 100%;
   height: 80px;
@@ -137,7 +137,7 @@ a:hover {
 
 .dropdown:hover .dropdown_content {
   display: block;
-  background-color: #821F8D;
+  background-color: #8D1F61; /*#821F8D;*/
 }
 
 
@@ -154,7 +154,7 @@ a:hover {
 }
 
 .dropdown:hover .dropdown_content a:hover {
-  background-color: #581560;
+  background-color: #601543; /*#581560;*/
 }
 
 
