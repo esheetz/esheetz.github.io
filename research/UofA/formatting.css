@@ -1,0 +1,316 @@
+/* GENERAL FORMATTING */
+/* body, header, footer */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #1F618D;
+  border-bottom: 10px solid #8D1F61; /*#821F8D;*/
+  color: white;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: #1F618D;
+  border-top: 5px solid #8D1F61; /* #821F8D; */
+  color: white;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+}
+
+
+
+/* headings and paragraphs */
+
+h1 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+h4 {
+  font-size: 12pt;
+}
+
+p {
+  font-size: 11pt;
+}
+
+
+
+/* links */
+
+a:link {
+  color: lightslategray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightslategray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightslategray;
+  text-decoration: underline;
+}
+
+
+
+/* SITE NAVIGATION */
+/* div class navigation */
+
+.navigation {
+  margin: 0;
+  width: 100%;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation h1 {
+  margin-top: 2px;
+}
+
+.navigation li {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+}
+
+.navigation li a {
+  display: block;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #154360;
+}
+
+
+
+/* div class pages */
+
+.pages {
+  float: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+
+
+/* div class dropdown */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+  background-color: #8D1F61; /*#821F8D;*/
+}
+
+
+
+/* div class dropdown_content */
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 200px;
+  padding: 10px 10px;
+  z-index: 3;
+}
+
+.dropdown:hover .dropdown_content a:hover {
+  background-color: #601543; /*#581560;*/
+}
+
+
+
+/* div class button */
+
+.button {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+/* PAGE NAVIGATION */
+/* div class page_navigation */
+
+.page_navigation {
+  margin-bottom: 40px;
+  z-index: 3;
+}
+
+.page_navigation ul {
+  font-size: 11pt;
+}
+
+
+
+/* PAGE CONTENT */
+/* div class page_content */
+
+.page_content {
+  position: absolute;
+  margin-top: 95px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 95px;
+  z-index: -1;
+}
+
+.page_content h1 {
+  font-size: 18pt;
+}
+
+
+
+/* COURSEWORK */
+/* div class course */
+
+.course ul {
+  list-style-type: none;
+}
+
+.course p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+
+
+/* tables */
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+  font-size: 11pt;
+}
+
+th {
+  background-color: #8D1F61; /* #821F8D; */
+  color: white;
+}
+
+
+
+/* div classes .table_* */
+
+.table_code {
+  width: 15%;
+}
+
+.table_course {
+  width: 40%;
+}
+
+.table_sem {
+  width: 30%;
+}
+
+.table_grade {
+  width: 15%;
+}
+
+
+
+/* RESEARCH */
+/* div class research */
+
+.research h3 {
+  margin-bottom: 5px;
+}
+
+.research h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.research li {
+  font-size: 11pt;
+}
+
+
+
+/* CONTACT INFO */
+/* div class contact_info */
+
+.contact_info {
+  font-size: 10pt;
+  padding: 0px 50px;
+}
+
+.contact_info p {
+  position: absolute;
+  top: -7px;
+  font-size: 10pt;
+}
+
+
+
+/* IMAGES */
+/* div class img_emily */
+
+.img_emily {
+  float: right;
+  padding: 10px 50px;
+}
+
+
+
+/* div class img_logo */
+
+.img_logo {
+  float: right;
+  padding: 5px 30px;
+}
