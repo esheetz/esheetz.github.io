@@ -177,12 +177,6 @@ a:hover {
 }
 
 .page_navigation ul {
-  list-style-type: none;
-  font-size: 11pt;
-}
-
-.page_navigation ol {
-  list-style-type: none;
   font-size: 11pt;
 }
 
@@ -209,7 +203,7 @@ a:hover {
 /* COURSEWORK */
 /* div class course */
 
-.course ol {
+.course ul {
   list-style-type: none;
 }
 
