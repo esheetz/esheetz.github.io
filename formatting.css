@@ -13,7 +13,7 @@ header {
   margin: 0;
   padding: 0;
   background-color: #1F618D;
-  border-bottom: 10px solid #8D1F16; /*#821F8D;*/
+  border-bottom: 10px solid #8D1F61; /*#821F8D;*/
   color: white;
   width: 100%;
   height: 80px;
@@ -27,7 +27,7 @@ footer {
   margin: 0;
   padding: 0;
   background-color: #1F618D;
-  border-top: 5px solid #821F8D;
+  border-top: 5px solid #8D1F61; /* #821F8D; */
   color: white;
   width: 100%;
   height: 40px;
@@ -238,7 +238,7 @@ th, td {
 }
 
 th {
-  background-color: #821F8D;
+  background-color: #8D1F61; /* #821F8D; */
   color: white;
 }
 
