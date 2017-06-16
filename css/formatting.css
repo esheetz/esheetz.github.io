@@ -284,6 +284,12 @@ th {
   font-size: 11pt;
 }
 
+video {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 
 /* CONTACT INFO */
