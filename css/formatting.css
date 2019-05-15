@@ -240,15 +240,12 @@ a:hover {
 /* tables */
 
 table {
-  table-layout: fixed;
+  /*table-layout: fixed;*/
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-table {
   border-collapse: collapse;
 }
 
