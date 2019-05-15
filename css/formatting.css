@@ -197,11 +197,6 @@ a:hover {
 .page_content h1 {
   font-size: 18pt;
 }
-/*
-.page_content p {
-  font-size: 11pt;
-}
-*/
 
 
 
@@ -255,6 +250,8 @@ th {
 
 /* div classes .table_* */
 
+/* courses */
+
 .table_code {
   width: 15%;
 }
@@ -269,6 +266,16 @@ th {
 
 .table_grade {
   width: 15%;
+}
+
+/* news */
+
+.table_date {
+  width: 30%;
+}
+
+.table_event {
+  width: 70%;
 }
 
 
