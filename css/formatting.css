@@ -217,6 +217,24 @@ a:hover {
   padding-bottom: 15px;
 }
 
+.course table, tr {
+  border: 1px solid black;
+}
+
+.course th {
+  background-color: #8D1F61; /* #821F8D; */
+  color: white;
+}
+
+
+
+/* NEWS */
+/* div class news */
+
+.news th, tr {
+  border-bottom: 1px solid black;
+}
+
 
 
 /* tables */
@@ -231,7 +249,6 @@ table {
 }
 
 table, tr {
-  border: 1px solid black;
   border-collapse: collapse;
 }
 
@@ -239,11 +256,6 @@ th, td {
   text-align: left;
   padding: 5px;
   font-size: 11pt;
-}
-
-th {
-  background-color: #8D1F61; /* #821F8D; */
-  color: white;
 }
 
 
