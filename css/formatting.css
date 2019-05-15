@@ -248,7 +248,7 @@ table {
   margin-bottom: 30px;
 }
 
-table, tr {
+table {
   border-collapse: collapse;
 }
 
@@ -283,11 +283,11 @@ th, td {
 /* news */
 
 .table_date {
-  width: 30%;
+  width: 20%;
 }
 
 .table_event {
-  width: 70%;
+  width: 80%;
 }
 
 
