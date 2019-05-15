@@ -186,6 +186,7 @@ a:hover {
 /* div class page_content */
 
 .page_content {
+  display: grid;
   position: absolute;
   margin-top: 95px;
   margin-bottom: 95px;
