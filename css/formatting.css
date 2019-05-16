@@ -294,8 +294,8 @@ th, td {
 /* div class research */
 
 .research {
-  margin-top: 95px;
-  margin-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .research h3 {
