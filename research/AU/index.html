@@ -18,26 +18,36 @@
           <li><h1><a href="http://esheetz.github.io/">Emily Sheetz</a></h1></li>
           <div class="pages">
             <div class="dropdown">
-              <li><a href="/coursework/">Coursework</a>
+              <li><a href="/research/">Research</a>
                 <div class="dropdown_content">
-                  <a href="/coursework/math/">Mathematics Major</a>
-                  <a href="/coursework/cs/">Computer Science Major</a>
-                  <a href="/coursework/spanish/">Spanish Minor</a>
-                  <a href="/coursework/honors/">Honors Program</a>
+                  <a href="/research/UMich/">University of Michigan</a>
+                  <!-- <a href="/research/TRACLabs/">TRACLabs</a> -->
+                  <a href="/research/MC/">Monmouth College</a>
+                  <a href="/research/AU/">Auburn University</a>
+                  <a href="/research/UofA/">University of Arizona</a>
                 </div> <!-- end div dropdown_content -->
               </li>
             </div> <!-- end div dropdown -->
             <div class="dropdown">
-              <li><a href="/research/">Research</a>
+              <li><a href="/coursework/">Coursework</a>
                 <div class="dropdown_content">
-                  <a href="/research/MC/">Monmouth College</a>
-                  <a href="/research/UofA/">University of Arizona</a>
-                  <a href="/research/AU/">Auburn University</a>
+                  <a href="/coursework/UMich/">University of Michigan</a>
+                  <a href="/coursework/MC/">Monmouth College</a>
+                    <!-- MC coursework by major
+                    <a href="/coursework/math/">Mathematics Major</a>
+                    <a href="/coursework/cs/">Computer Science Major</a>
+                    <a href="/coursework/spanish/">Spanish Minor</a>
+                    <a href="/coursework/honors/">Honors Program</a>
+                    -->
                 </div> <!-- end div dropdown_content -->
               </li>
             </div> <!-- end div dropdown -->
             <div class="button">
-              <li><a href="/resume/">Resume</a></li>
+              <li><a href="/teaching/">Teaching Experience</a></li>
+            </div> <!-- end div button -->
+            <div class="button">
+              <li><a href="/CV/">CV</a></li>
+              <!-- <li><a href="/resume/">Resume</a></li> -->
             </div> <!-- end div button -->
           </div> <!-- end div pages -->
         </ul>
@@ -47,41 +57,43 @@
 
   <div class="page_content">
 
-    <div class="img_logo">
-      <img src="/images/AU_resize.png">
-    </div> <!-- end div img_logo -->
+    <div class="introductory_material">
 
-    <h1>Research</h1>
+      <h1>Research</h1>
+
+    </div> <!-- end div introductory_material -->
 
     <div class="research_AU">
+
+      <div class="img_logo">
+        <img src="/images/AU_resize.png">
+      </div> <!-- end div img_logo -->
+
       <h2>Auburn University</h2>
+
       <div class="research">
         <h3>REU on Smart UAVs</h3>
         <p>
           I spent the summer of 2017 at
           <a href="http://www.auburn.edu" target="_tab">Auburn University</a>
-           in Auburn, Alabama working at the REU for Smart Unmanned Aerial
-          Vehicles (UAVs).  My research partner <a href="#">James Brown</a>
-          and I researched snapshot-based visual homing.  We used homography
-          control law to compute the direction vector for the UAV to navigate
-          home and implemented visual path optimization techniques for the
-          return journey.  We wrote
-          <a href="https://github.com/esheetz/REU_Smart_UAVs" target="_tab">
-            code</a>
-           in Python and MATLAB for image processing and simulations.  Our
-          simulations showed promising results for combining computer vision,
+          in Auburn, Alabama working at the REU for Smart Unmanned Aerial Vehicles (UAVs).
+          My research partner <a href="#">James Brown</a> and I researched snapshot-based visual homing.
+          We used homography control law to compute the direction vector for the UAV to navigate home
+          and implemented visual path optimization techniques for the return journey.
+          We wrote
+          <a href="https://github.com/esheetz/REU_Smart_UAVs" target="_tab">code</a>
+          in Python and MATLAB for image processing and simulations.
+          Our simulations showed promising results for combining computer vision,
           sparse-snapshot representation, homography control law, and visual
           path optimization techniques as a solution to GPS-less visual homing.
           Our research is explained in our
-          <a href="/content/SmartUAVs_presentation.pdf" target="_tab">
-            final oral presentation</a>,
-          <a href="/content/SmartUAVs_poster.pdf" target="_tab">
-            final poster presentation</a>,
-           and
-          <a href="/content/SmartUAVs_paper.pdf" target="_tab">
-            paper draft</a>.
+          <a href="/content/SmartUAVs_presentation.pdf" target="_tab">final oral presentation</a>,
+          <a href="/content/SmartUAVs_poster.pdf" target="_tab">final poster presentation</a>,
+          and
+          <a href="/content/SmartUAVs_paper.pdf" target="_tab">paper draft</a>.
         </p>
 
+        <!--
         <h3>Related Work</h3>
         <p>
           Papers that influenced our research are listed below.
@@ -106,6 +118,7 @@
           <li><a href="/content/SmartUAVs_related_work/pathplanning.pdf" target="_tab">
             Planning Optimal Paths for UAVs</a></li>
         </ul>
+        -->
       </div> <!-- end div research -->
     </div> <!-- end div research_AU -->
   </div> <!-- end div page_content -->
