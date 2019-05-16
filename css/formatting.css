@@ -295,7 +295,7 @@ th, td {
 
 .research {
   padding-top: 95px;
-  padding-bottom: 95px;
+  margin-top: -95px;
 }
 
 .research h3 {
