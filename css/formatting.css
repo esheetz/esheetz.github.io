@@ -204,6 +204,11 @@ a:hover {
 /* COURSEWORK */
 /* div class course */
 
+.course {
+  padding-top: 95px;
+  margin-top: -95px;
+}
+
 .course ul {
   list-style-type: none;
 }
