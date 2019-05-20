@@ -324,6 +324,15 @@ video {
 
 
 
+/* TEACHING EXPERIENCE */
+/* div class teaching_experience */
+.teaching_experience {
+  padding-top: 95px;
+  margin-top: -95px;
+}
+
+
+
 /* CONTACT INFO */
 /* div class contact_info */
 
