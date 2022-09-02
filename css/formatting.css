@@ -349,6 +349,22 @@ video {
   font-size: 10pt;
 }
 
+.contact_info a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact_info a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.contact_info a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
 
 
 /* IMAGES */
@@ -363,5 +379,16 @@ video {
 
 .img_logo {
   float: right;
+  padding: 5px 30px;
+}
+
+/* div class img_homepage_logos */
+.img_homepage_logos_col1 {
+  float: none;
+  padding: 5px 30px;
+}
+
+.img_homepage_logos_col2 {
+  float: none;
   padding: 5px 30px;
 }
